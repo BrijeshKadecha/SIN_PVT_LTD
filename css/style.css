@@ -1,0 +1,260 @@
+/*
+Theme Name: GM Theme
+Author: FORM DIGITAL
+Author URI: http://www.form-digital.com
+Version: 1.0
+*/
+
+@import url("app.css");
+
+/* IE Hack */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	
+	.card-list .card a .text {
+		display: block !important;
+	}
+
+}
+
+/* Google reCaptcha */
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+/* Cookies */
+
+.has-cookie-bar #catapult-cookie-bar {
+    padding: 25px 0 !important;
+}
+
+.cookie-bar-bar .ctcc-inner {
+    justify-content: space-between !important;
+    max-width: 87.5rem !important;
+    margin: 0 auto;
+    padding: 0 1.25rem !important;
+}
+
+.ctcc-left-side {
+	font-weight: 600 !important;
+}
+
+.ctcc-more-info-link {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+	.ctcc-more-info-link {
+	    display: block !important;
+	}
+}
+
+.cookie-bar-bar button#catapultCookie {
+    margin: 0 !important;
+    border-radius: 500px !important;
+    padding: 0 !important;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease;
+}
+
+.cookie-bar-bar button#catapultCookie:hover {
+	background-color: #B8383D;
+}
+
+/* Global */
+
+.animsition {
+    height: 100%;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.pt-0 {
+	padding-top: 0 !important;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+/* Header */
+
+.site-header .header-inner .logo svg {
+	width: auto !important;
+}
+
+.site-header .header-inner nav ul li.current_page_parent a {
+    opacity: 1;
+}
+
+.site-header .header-inner nav ul li.current_page_parent a::before {
+    background: #AB2B30;
+    -webkit-transform: translateX(-50%) scaleY(1);
+    -ms-transform: translateX(-50%) scaleY(1);
+    transform: translateX(-50%) scaleY(1);
+}
+
+/* Project Single */
+
+.article-nav a:last-child {
+    border-left: 1px solid rgba(158,159,162,0.2);
+    left: -1px;
+    position: relative;
+
+}
+
+/* Content */
+
+.rich-text img {
+    margin: 2.5rem 0;
+}
+
+.rich-text p:first-child {
+    color: #0C1017;
+    font-size: 1.25rem;
+}
+
+.rich-text-general p:first-child {
+	color: #9E9FA2;
+	font-size: 1rem;
+}
+
+.rich-text-general h1, .rich-text-general h2, .rich-text-general h3, .rich-text-general h4, .rich-text-general h5, .rich-text-general h6 {
+    font-weight: 300 !important;
+    color: #55585D !important;
+}
+
+.rich-text-general a{
+	color: #fff;
+}
+
+/* Filtering */
+
+.tabs-container .tabs button.mixitup-filter-active {
+    color: #0C1017;
+}
+
+.tabs-container .tabs button.mixitup-filter-active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: #AB2B30;
+}
+
+.tabs-container .tabs a.active {
+    color: #0C1017;
+}
+
+.tabs-container .tabs a {
+    position: relative;
+    display: block;
+    margin: 0 1rem;
+    padding: 2rem 0;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #9E9FA2;
+}
+
+.tabs-container .tabs a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: #AB2B30;
+}
+
+/* Team Modal */
+
+.flex-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+/* CF7 */
+
+.wpcf7-validation-errors {
+	font-size: 0.85rem;
+	color: #122234;
+	text-align: center;
+    margin: 2em 0 !important;
+    padding: 15px !important;
+    border: 2px solid #e0e0e0 !important;
+}
+
+span.wpcf7-not-valid-tip {
+	font-size: 0.85rem;
+    top: -10px !important;
+    position: relative;
+}
+
+.sent #hideform {
+	display: none;
+}
+
+.wpcf7-mail-sent-ok {
+	font-size: 0.85rem;
+	color: #122234;
+	text-align: center;
+    margin: 2em 0 !important;
+    padding: 15px !important;
+    border: 2px solid #e0e0e0 !important;
+}
+
+.header-hidden {
+    -webkit-transform: translateY(-105%);
+
+    -ms-transform: translateY(-105%);
+
+    transform: translateY(-105%);
+    transition: all 0.5s ease;
+}
+
+@media all and (-ms-high-contrast:none)
+{
+    *::-ms-backdrop, .home-services a .inner button {
+        right: 0;
+        left: 0;
+        bottom:40px;
+        margin: auto;
+        width: 60%;
+    }
+
+    *::-ms-backdrop, .slick-slide div li.card a div.text {
+        display: block;
+        flex-basis: auto;
+    }
+
+    *::-ms-backdrop, li.card .text {
+        display: block !important;
+        flex-basis: auto !important;
+        -ms-flex-preferred-size: auto !important;
+    }
+
+    .sticky-top-ie {
+        position: fixed;
+        width: 100%;
+        top: 96px;
+        z-index: 99;
+    }
+}
+
+/*
+body {
+    background: #1B1E25;
+}
+*/
