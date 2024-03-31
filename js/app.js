@@ -75,20 +75,24 @@ $(".home-hero-slides").slick({
 });
 
 // Home services
-$('#constructionTrigger').hover(function() {
-    $("#constructionImage").toggleClass("is-visible");
+$('#industrialHover').hover(function() {
+    $("#industrialImage").toggleClass("is-visible");
 });
 
-$('#timber-systemsTrigger').hover(function() {
-    $("#timber-systemsImage").toggleClass("is-visible");
+$('#commercialHover').hover(function() {
+    $("#commercialImage").toggleClass("is-visible");
 });
 
-$('#plant-hireTrigger').hover(function() {
-    $("#plant-hireImage").toggleClass("is-visible");
+$('#residentialHover').hover(function() {
+    $("#residentialImage").toggleClass("is-visible");
 });
 
-$('#haulageTrigger').hover(function() {
-    $("#haulageImage").toggleClass("is-visible");
+$('#csrrHover').hover(function() {
+    $("#csrrImage").toggleClass("is-visible");
+});
+
+$('#specialpHover').hover(function() {
+    $("#specialpImage").toggleClass("is-visible");
 });
 
 // Gallery

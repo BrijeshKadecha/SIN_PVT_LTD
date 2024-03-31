@@ -9485,7 +9485,7 @@ screen and (min-width: 64em) {
 	position: relative;
 	z-index: 1;
 	width: 100%;
-	padding: 10rem 0 7.5rem 0
+	padding: 10rem 0 12.5rem 0
 }
 
 .home-hero .home-hero-inner .home-hero-content {
@@ -10866,4 +10866,8 @@ screen and (min-width: 40em) {
 	color: red;
 	font-size: x-large;
 	margin-bottom: inherit;
+}
+
+.text-sm-company-name {
+	font-size: 2.3337rem
 }
