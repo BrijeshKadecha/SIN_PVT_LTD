@@ -7857,7 +7857,7 @@ screen and (min-width: 40em) {
 }
 
 .site-header .header-inner nav ul li.active a::before {
-	background: #AB2B30;
+	background: #ffcc00;
 	-webkit-transform: translateX(-50%) scaleY(1);
 	-ms-transform: translateX(-50%) scaleY(1);
 	transform: translateX(-50%) scaleY(1)
