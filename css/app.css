@@ -10871,3 +10871,9 @@ screen and (min-width: 40em) {
 .text-sm-company-name {
 	font-size: 2.3337rem
 }
+
+@media (max-width: 64em) {
+	.hidden-mobile {
+	  display: none;
+	}
+  }
