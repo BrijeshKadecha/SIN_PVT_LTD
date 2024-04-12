@@ -96,7 +96,7 @@ Version: 1.0
 }
 
 .site-header .header-inner nav ul li.current_page_parent a::before {
-    background: #AB2B30;
+    background: #FFCC00;
     -webkit-transform: translateX(-50%) scaleY(1);
     -ms-transform: translateX(-50%) scaleY(1);
     transform: translateX(-50%) scaleY(1);
@@ -149,7 +149,7 @@ Version: 1.0
     right: 0;
     left: 0;
     height: 3px;
-    background: #AB2B30;
+    background: #FFCC00;
 }
 
 .tabs-container .tabs a.active {
@@ -175,7 +175,7 @@ Version: 1.0
     right: 0;
     left: 0;
     height: 3px;
-    background: #AB2B30;
+    background: #FFCC00;
 }
 
 /* Team Modal */

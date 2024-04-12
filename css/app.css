@@ -9490,7 +9490,8 @@ screen and (min-width: 64em) {
 
 .home-hero .home-hero-inner .home-hero-content {
 	width: 100%;
-	max-width: 45rem
+	max-width: 45rem;
+	margin-bottom: -100px;
 }
 
 .home-hero .home-hero-inner .home-hero-content .scroll-trigger {
@@ -10875,5 +10876,10 @@ screen and (min-width: 40em) {
 @media (max-width: 64em) {
 	.hidden-mobile {
 	  display: none;
+	}
+	.home-hero .home-hero-inner .home-hero-content {
+		width: 100%;
+		max-width: 45rem;
+		margin-top: 500px;
 	}
   }
