@@ -9490,7 +9490,7 @@ screen and (min-width: 64em) {
 
 .home-hero .home-hero-inner .home-hero-content {
 	width: 100%;
-	max-width: 45rem;
+	max-width: 50rem;
 	margin-bottom: -100px;
 }
 
@@ -9546,7 +9546,7 @@ screen and (min-width: 64em) {
 .home-hero .home-hero-slides .slide {
 	height: 660px;
 	min-height: 100vh;
-	opacity: 0.3;
+	opacity: 0.5;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -10879,7 +10879,7 @@ screen and (min-width: 40em) {
 	}
 	.home-hero .home-hero-inner .home-hero-content {
 		width: 100%;
-		max-width: 45rem;
-		margin-top: 500px;
+		max-width: 50rem;
+		margin-bottom: 500px;
 	}
   }
