@@ -8305,7 +8305,6 @@ screen and (min-width: 40em) {
 	align-items: center;
 	padding: 10rem 5vw 7.5rem 5vw;
 	background-color: #0C1017;
-	background-image: url("../images/logo-m-bg.svg");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -9621,7 +9620,6 @@ screen and (min-width: 40em) {
 	align-items: center;
 	padding: 2.5rem 5vw;
 	background-color: #1B1E25;
-	background-image: url("../images/logo-m-bg.svg");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -10345,7 +10343,6 @@ screen and (min-width: 64em) {
 	width: 30px;
 	height: 30px;
 	background-size: cover;
-	background-image: url("../images/sound-on.png");
 	background-origin: content-box;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -10354,7 +10351,6 @@ screen and (min-width: 64em) {
 }
 
 .video-section .unmute.muted {
-	background-image: url("../images/sound-off.png")
 }
 
 .video-section .video {
