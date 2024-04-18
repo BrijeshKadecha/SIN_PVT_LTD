@@ -7,7 +7,7 @@
 </head>
 
 <body class="services-template-default single single-services postid-81">
-	
+<img id="loader" src="./images/icons/LogoNew.jpg" alt="" width="120" height="120">
 <div class="animsition">
 	
 <header class="site-header">
@@ -324,6 +324,17 @@ $(".scroll-anchor").click(function() {
         scrollTop: $("#scrollTarget").offset().top - 90
     }, 1000);
 });
+</script>
+<script>
+	document.onreadystatechange = function () {
+		if (document.readyState !== "complete") {
+			document.querySelector("body").style.visibility = "hidden";
+			document.querySelector("#loader").style.visibility = "visible";
+		} else {
+			document.querySelector("#loader").style.display = "none";
+			document.querySelector("body").style.visibility = "visible";
+		}
+	};
 </script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </body></html>
