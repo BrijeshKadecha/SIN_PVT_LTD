@@ -10856,8 +10856,8 @@ screen and (min-width: 40em) {
 
 .tblLi::before {
 	color: red;
-    content: "● ";
-}
+    content: "* ";
+}* 
 
 .tblProdHead {
 	color: red;
