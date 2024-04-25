@@ -10879,3 +10879,38 @@ screen and (min-width: 40em) {
 		margin-bottom: 500px;
 	}
   }
+
+  .pbtable {
+	padding: 2rem 2rem 2rem 2rem;
+    background-color: white;
+	width: 140%;
+    max-width: 70rem;
+    margin-bottom: -100px;
+    margin-left: -150px;
+  }
+
+  .pbtable nav ul {
+	border-right: 1px solid rgb(0, 0, 0);
+	text-transform: none;
+	width: auto;
+  }
+
+  .pbtable nav ul li{
+	font-weight: 100;
+	font-size: small;
+  }
+
+  .pbtableLiHeading {
+	color: #2b4c9c !important;
+  }
+
+  @media (max-width: 64em) {
+	.pbtable {
+		padding: 2rem 2rem 2rem 2rem;
+		background-color: white;
+		max-width: 70rem;
+		margin-bottom: -100px;
+		margin-left: -150px;
+		width: auto;
+	}
+  }
