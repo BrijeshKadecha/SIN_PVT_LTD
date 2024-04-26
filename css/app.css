@@ -10881,7 +10881,7 @@ screen and (min-width: 40em) {
   }
 
   .pbtable {
-	padding: 2rem 2rem 2rem 2rem;
+	padding: 1rem 2rem 0.1% 2rem;
     background-color: white;
 	width: 140%;
     max-width: 70rem;
@@ -10898,6 +10898,7 @@ screen and (min-width: 40em) {
   .pbtable nav ul li{
 	font-weight: 100;
 	font-size: small;
+	margin-bottom: auto;
   }
 
   .pbtableLiHeading {
@@ -10906,7 +10907,7 @@ screen and (min-width: 40em) {
 
   @media (max-width: 64em) {
 	.pbtable {
-		padding: 2rem 2rem 2rem 2rem;
+		padding: 1rem 2rem 0.1% 2rem;
 		background-color: white;
 		max-width: 70rem;
 		margin-bottom: -100px;
