@@ -10912,5 +10912,6 @@ screen and (min-width: 40em) {
 		margin-bottom: -100px;
 		margin-left: -150px;
 		width: auto;
+		position: absolute;
 	}
   }
