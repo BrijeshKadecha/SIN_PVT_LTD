@@ -10916,3 +10916,10 @@ screen and (min-width: 40em) {
 		position: absolute;
 	}
   }
+
+@media print,
+screen and (min-width: 40em) {
+	.home-hero .home-hero-inner {
+		padding: 158rem 0 12.5rem 0;
+	}
+}
