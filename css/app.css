@@ -10923,3 +10923,20 @@ screen and (min-width: 40em) {
 		padding: 158rem 0 12.5rem 0;
 	}
 }
+
+.desk{
+	visibility:visible;
+}
+.mobile{
+	content-visibility: hidden;
+}
+
+@media screen and (max-width : 64em){
+  .desk{
+  visibility:hidden;
+  }
+  .mobile{
+	visibility: visible;
+	content-visibility: visible;
+}
+}
