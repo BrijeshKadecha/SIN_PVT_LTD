@@ -106,15 +106,16 @@ $(".gallery").slick({
     nextArrow: $('.gallery-arrow.next')
 });
 
-// Project gallery
-$(".project-gallery").slick({
-    arrows: true,
-    dots: true,
-    slidesToShow: 1,
-    autoplay: true,
-    prevArrow: $('.project-gallery-arrow.prev'),
-    nextArrow: $('.project-gallery-arrow.next')
-});
+for (i = 1; i < 31; i++) { 
+    $(".project-gallery"+i).slick({
+        arrows: true,
+        dots: true,
+        slidesToShow: 1,
+        autoplay: true,
+        prevArrow: $('.project-gallery-arrow'+i+'.prev'),
+        nextArrow: $('.project-gallery-arrow'+i+'.next')
+    });
+}
 
 // Related projects
 $(".related-projects").slick({

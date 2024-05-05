@@ -10940,3 +10940,26 @@ screen and (min-width: 40em) {
 	content-visibility: visible;
 }
 }
+
+.gallery-container .pga-btn {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 2rem;
+	height: 2rem;
+	color: #fefefe;
+	border-radius: 50%;
+	background: #AB2B30;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
