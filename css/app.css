@@ -9466,7 +9466,7 @@ screen and (min-width: 64em) {
 	-ms-flex-align: center;
 	align-items: center;
 	height: 660px;
-	min-height: 100vh;
+	min-height: 50vh;
 	padding: 0 5vw;
 	background: #0C1017
 }
@@ -9544,7 +9544,7 @@ screen and (min-width: 64em) {
 
 .home-hero .home-hero-slides .slide {
 	height: 660px;
-	min-height: 100vh;
+	min-height: 50vh;
 	opacity: 0.5;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -10877,6 +10877,7 @@ screen and (min-width: 40em) {
 		width: 100%;
 		max-width: 50rem;
 		margin-bottom: 800px;
+		height: 35vh;
 	}
   }
 
