@@ -284,6 +284,7 @@ body {
     width: auto;
     height: auto;
     transform: translate(-50%, -50%);
+    margin-top: 28%;
 }
 
 video {
@@ -295,5 +296,25 @@ video {
 @media print, screen and (min-width: 64em) {
     .video-background {
         min-height: unset;
+    }
+}
+
+.home-hero1 {
+    position: relative; /* Ensure the container is positioned */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Media query for specific widths */
+@media (max-width: 667px) {
+    .home-hero1 {
+        height: 70vh; /* Adjust height for smaller screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .home-hero1 {
+        height: 100vh; /* Full height on larger screens */
     }
 }
