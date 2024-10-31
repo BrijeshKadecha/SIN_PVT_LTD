@@ -306,15 +306,38 @@ video {
     overflow: hidden; /* Prevent overflow */
 }
 
+.contents {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    z-index: 1;
+    min-width: max-content;
+    margin-left: 10%;
+    margin-top: -1%;
+}
+
 /* Media query for specific widths */
 @media (max-width: 667px) {
     .home-hero1 {
         height: 70vh; /* Adjust height for smaller screens */
+    }
+    .contents {
+        min-width: max-content;
+        margin-left: 10%;
+        margin-top: -1%;
     }
 }
 
 @media (min-width: 768px) {
     .home-hero1 {
         height: 100vh; /* Full height on larger screens */
+    }
+    .contents {
+        min-width: max-content;
+    margin-left: 20%;
+    margin-top: -1%;
     }
 }
