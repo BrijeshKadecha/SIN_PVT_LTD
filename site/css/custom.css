@@ -1,5 +1,27 @@
 .c-site-header__brand span.o-icon.o-icon--logo img {
     width: 80px;
+    height: auto;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .c-site-header__brand span.o-icon.o-icon--logo img {
+        width: 50px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .c-site-header__brand span.o-icon.o-icon--logo img {
+        width: 40px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .c-site-header__brand span.o-icon.o-icon--logo img {
+        width: 40px;
+    }
 }
     .c-site-footer__legals-nav {
         flex: 1;
@@ -1323,73 +1345,4 @@ img.mono {
         text-align:center;
     }
 
-}
-
-
-/* Mobile Responsive */
-@media (max-width: 767px) {
-
-   
-
-    .sec_pad,
-    .o-container,
-    .c-partners {
-        overflow-x: hidden;
-    }
-
-    .wd_80 {
-        width: 100% !important;
-    }
-
-    .client_counter {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin-bottom: 30px;
-    }
-
-    .c-partners__wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 40px;
-        gap: 15px;
-        width: 100%;
-    }
-
-    .c-partners__item {
-        width: 100%;
-        padding: 10px;
-        margin: 0;
-        text-align: center;
-        box-sizing: border-box;
-    }
-
-    .c-partners__item img {
-        width: 100%;
-        max-width: 90px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .c-partners__item .content p {
-        font-size: 13px;
-        line-height: 18px;
-        margin-top: 10px;
-        word-break: break-word;
-    }
-
-    .c-text-title {
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    .counterbox-container .number {
-        font-size: 40px;
-    }
-
-    .counterbox-container .headline {
-        font-size: 14px;
-    }
 }
